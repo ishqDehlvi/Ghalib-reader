@@ -1,7 +1,16 @@
 body {background: #fffdd0}
+@font-face {
+    font-family: 'Mehr';
+    src: url(mehr.ttf) format('truetype');
+  }
+* {
+    font-family: Mehr;
+}
 img {
     border-radius: 60%;
     display: block;
     margin-left: auto;
     margin-right: auto;
-  }      
+}   
+h1 {text-align: center;
+}
