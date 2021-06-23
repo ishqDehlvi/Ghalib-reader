@@ -20,3 +20,12 @@ div {
     text-align: justify;
     text-justify: inter-word;
 }
+.links{
+    display:flex;
+    align-items:center;
+}
+.links a
+   {
+   flex:1;
+   text-align:center;
+ }
