@@ -3,29 +3,39 @@ body {background: #fffdd0}
     font-family: 'Mehr';
     src: url(mehr.ttf) format('truetype');
   }
+
+
 * {
     font-family: Mehr;
 }
+
 img {
     border-radius: 30%;
     display: block;
     margin-left: auto;
     margin-right: auto;
 }   
-h1 {text-align: center;
+h1 {
+    text-align: center;
 }
-h3 {text-align: center;
+
+h3 {
+    text-align: center;
 }
+
 div {
     text-align: justify;
-    text-justify: inter-word;
+    text-justify: auto;
 }
+
 .links{
     display:flex;
     align-items:center;
 }
+
 .links a
    {
    flex:1;
    text-align:center;
+   color: #5b342e;
  }
